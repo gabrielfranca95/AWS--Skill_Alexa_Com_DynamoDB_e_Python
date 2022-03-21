@@ -1,4 +1,28 @@
-# AWS- Skill Alexa (Ensine frases a alexa)
+# AWS- Skill Alexa (Ensine frases a alexa) com Python e DYnamoDB(aws)
+
+### Abaixo segue o tutorial de como eu desenvolvi uma skill para alexa dot, que conseguiu alcansar uma media acima de 20 mil usuários mensais!
+
+![image](https://user-images.githubusercontent.com/57453192/159197844-b246c2aa-357c-409c-97f3-686e58cb1654.png)
+
+o passo a passo ensina como utilizar o codigo que eu criei para minha skill, na documentação oficial da aws é possível encontrar um passo a passo para desenvolver aplicações de entrada e suporte para desenvolver seus conhecimentos na utilização do SDK da alexa dot.
+A aplicação foi nomeada como "Ensine frases a alexa" e basea-se em um sistema CRUD de banco de dados, onde a skill irá armazenar informações, que quando solicitas irá repassa-las para o usuário, o grando ponto desta aplicação é a funcionalidade que lhe foi atribuída, onde a finalidade a qual é sugerida para o usuário é ensinar frases engraçadas sobre amigos e conhecidos, uma vez solicitadas para alexa informando o nome da passoa, a skill irá buscar no banco de dados as informações armazenadas e retornará a frase engraçada similar a informada antes. A frase não será devolvida extamente como foi ensinada pois a skill irá adapta-la para ficar mais aceitavel e coerente aos ouvidos, exemplo:
+Dizendo o comando abaixo
+````
+Alexa, aprenda que " Pedro não gosta de tomar banho"
+````
+logo a skill armazenará as informações da frase, e quando for solicitado com o seguindo comando de voz:
+````
+Alexa o que você sabe sobre Pedro? 
+````
+Ela retornará a seguinte frase:
+````
+Eu descobri que Pedro não gosta de tomar banho
+````
+Logo notamos que a alexa substitui alguns elementos da frase para que a mesma se torne coerente aos ouvidos humanos. O usuário pode adicionar frases, apagar, e substituir informações sobre os nomes atribuídos. 
+https://shoutworks.com/wp-content/uploads/2020/09/ezgif.com-video-to-gif-3.gif
+
+#### A parte de estalação e configuração da aplicação eu escrevi em inglês mas é possivel traduzi-lo facilmente com um tradutor de paginas
+
 
 Skill consuming the aws service, Skill that learns phrases, remembers and returns intelligently. 
 
