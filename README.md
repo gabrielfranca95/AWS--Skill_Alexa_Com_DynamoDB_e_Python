@@ -19,7 +19,7 @@ Ela retornará a seguinte frase:
 Eu descobri que Pedro não gosta de tomar banho
 ````
 Logo notamos que a alexa substitui alguns elementos da frase para que a mesma se torne coerente aos ouvidos humanos. O usuário pode adicionar frases, apagar, e substituir informações sobre os nomes atribuídos. 
-https://shoutworks.com/wp-content/uploads/2020/09/ezgif.com-video-to-gif-3.gif
+![image](https://shoutworks.com/wp-content/uploads/2020/09/ezgif.com-video-to-gif-3.gif)
 
 #### A parte de estalação e configuração da aplicação eu escrevi em inglês mas é possivel traduzi-lo facilmente com um tradutor de paginas
 
